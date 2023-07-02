@@ -18,3 +18,13 @@
 .link:hover {
   background-color: aquamarine;
 }
+@media screen and (min-width: 768px) {
+  .link {
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .link {
+    color: black;
+  }
+}
