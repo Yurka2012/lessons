@@ -1,11 +1,15 @@
+:root {
+  --stand:red;
+}
+
 #a {
-  color: red;
+  color: var(--stand);
 }
 #a #b {
-  color: greenyellow;
+  color: blue;
 }
 #a #b #c span {
-  color: aquamarine;
+  color: yellow;
 }
 
 .link {

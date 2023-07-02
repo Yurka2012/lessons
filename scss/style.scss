@@ -1,10 +1,15 @@
+$assent-color: blue;
+$standart_color: yellow;
+:root{
+    --stand:red;
+}
 #a {
-  color: red;
+    color: /*$standart_color*/ var(--stand);
   // background-color: aqua;
   #b {
-    color: greenyellow;
+    color: $assent-color;
     #c span {
-      color: aquamarine;
+      color: $standart_color;
     }
   }
 }
