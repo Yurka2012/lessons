@@ -1,5 +1,20 @@
+#a {
+  color: red;
+}
+#a #b {
+  color: greenyellow;
+}
+#a #b #c span {
+  color: aquamarine;
+}
+
 .link {
   color: black;
   text-decoration: none;
   text-transform: none;
+  background-color: none;
+  transition: all 1s ease;
+}
+.link:hover {
+  background-color: aquamarine;
 }

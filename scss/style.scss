@@ -1,0 +1,22 @@
+#a {
+  color: red;
+  // background-color: aqua;
+  #b {
+    color: greenyellow;
+    #c span {
+      color: aquamarine;
+    }
+  }
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+  // text-align: center;
+  background-color: none;
+  transition: all 1s ease;
+  &:hover {
+    background-color: aquamarine;
+  }
+}
