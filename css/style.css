@@ -1,18 +1,67 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
-  list-style: none; /* Убирает маркеры списка */
+  display: flex;
+  list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-left: 25%;
+}
+ul li {
+  margin-right: 34px;
 }
 
-li {
-  display: inline-block; /* Закрепляет элементы в ряд */
-  width: 25%; /* Распределяет ширину на 4 элемента */
-  box-sizing: border-box; /* Включает учет padding и border в ширину */
-  text-align: center; /* Выравнивание текста по центру (по желанию) */
+.miha {
+  width: 90%;
+  height: 90%;
+}
+
+.card {
+  align-items: center;
+  margin-left: 10px;
+}
+
+.name {
+  color: #000000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.who-is-he {
+  color: #757575;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+body {
+  background: #f5f4fa;
+}
+
+.card {
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  /* material shadow v1 */
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+  align-items: center;
+  width: auto;
+}
+@media (min-width: 770px) {
+  .card {
+    width: 354px;
+    display: inline-block;
+  }
 }
