@@ -63,7 +63,11 @@ body {
 
   @media (min-width: 770px) {
     width: 354px;
-    display: flex;
+    display: inline-block;
+  }
+  @media (min-width: 1200px) {
+    width: 270px;
     // flex-shrink: 0;
   }
 }
+
