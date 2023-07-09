@@ -27,6 +27,7 @@ ol {
   font-size: 20px;
   font-weight: 900;
   padding: 20px 30px;
+  border-radius: 10000px;
 }
 
 .butb {
@@ -36,4 +37,5 @@ ol {
   font-size: 20px;
   font-weight: 900;
   padding: 20px 30px;
+  border-radius: 30px;
 }

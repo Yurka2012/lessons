@@ -1,6 +1,6 @@
-.buta{
-    @include buttonBorder(10px solid black);
+.buta {
+  @include buttonBorder(10px solid black, 10000px);
 }
-.butb{
-    @include buttonBorder(100px solid rgba(71, 71, 71, 0.489));
+.butb {
+  @include buttonBorder(100px solid rgba(71, 71, 71, 0.489), 30px);
 }

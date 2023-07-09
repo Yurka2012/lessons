@@ -5,11 +5,12 @@
     align-items: center;
 }
 
-@mixin buttonBorder($border){
+@mixin buttonBorder($border,$border-radius){
     color: #fff;
     background-color: #000;
     border: $border;
     font-size: 20px;
     font-weight: 900;
     padding: 20px 30px;
+    border-radius: $border-radius;
 }
