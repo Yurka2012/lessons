@@ -2,4 +2,6 @@ $white: #fff;
 $black: #000;
 
 @import "./reset.scss";
+@import "./utils/mixins";
+@import "./layout/_header.scss";
 // деректива робить так шоб код звітси був і там і тут

@@ -1,0 +1,15 @@
+// .list {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+.list{
+    @include flexible();
+    // теж саме що було вищe
+
+    
+    
+    // margin-bottom: 50px;
+    // border: 5px;
+    // border-radius: 10px;
+}
