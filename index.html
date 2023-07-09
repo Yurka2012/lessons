@@ -1,26 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>WebStudio</title>
   </head>
   <body>
-    <a class="link" href="">-- </a>
-    <br />
-    <p>
-      <span id="a">
-        a
-        <span id="b"
-          >b
-          <span id="c"
-            >c
-            <span>0</span>
-          </span>
-        </span>
-      </span>
-    </p>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo"><span class="logo--web">Web</span>Studio</a>
+        <ul class="nav__list">
+          <li class="nav__list--item">
+            <a href="./index.html" class="nav-link bottom-line active-link">Студія</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./partfolio.html" class="nav-link">Портфоліо</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./practice.html" class="nav-link">Контакти</a>
+          </li>
+          <!-- <li class="nav__list--item">
+            <a href="./homework.html" class="nav-link">Домашка</a>
+          </li> -->
+        </ul>
+      </nav>
+
+      <ul class="header__contacts">
+        <li class="contacts-item">
+          <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+        </li>
+        <li class="contacts-item">
+          <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1 class="hero--heading">Ефективні рішення для вашого бізнесу</h1>
+        <button class="hero--button">Замовити послугу</button>
+      </section>
+      <section class="sectionPerevagi container">
+        <h2 class="sectionHeading">Конкурентні переваги</h2>
+        <ul class="list">
+          <li class="list-item antena">
+            <div class="text-container">
+              <h3 class="asda">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </div>
+          </li>
+          <li class="list-item list-item__active clock">
+            <div class="text-container">
+              <h3 class="asda">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </li>
+          <li class="list-item diagram">
+            <div class="text-container">
+              <h3 class="asda">ПЛАНУВАННЯ</h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </li>
+          <li class="list-item astronavt">
+            <div class="text-container">
+              <h3 class="asda">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="abaut-us container">
+        <h2 class="about-us__heading">Чим ми займаємося</h2>
+        <div class="img-block">
+          <img class="about-us__img" src="./assets/img/img1-opt.jpg" alt="Картинка" />
+          <img class="about-us__img" src="./assets/img/img2-opt.jpg" alt="Картинка" />
+          <img class="about-us__img" src="./assets/img/img3-opt.jpg" alt="Картинка" />
+        </div>
+      </section>
+
+      <section class="zxzxc container">
+        <h2 id="1">Наша команда</h2>
+
+        <ul>
+          <li>
+            <div>
+              <img src="./assets/img/img4-opt.jpg" alt="Працівник" />
+              <p>Ігор Дем'яненко</p>
+              <p>Product Designer</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./assets/img/img5-opt.jpg" alt="Працівник" />
+              <p>Ігор Дем'яненко</p>
+              <p>Product Designer</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./assets/img/img6-opt.jpg" alt="Працівник" />
+              <p>Ігор Дем'яненко</p>
+              <p>Product Designer</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./assets/img/img7-opt.jpg" alt="Працівник" />
+              <p>Ігор Дем'яненко</p>
+              <p>Product Designer</p>
+            </div>
+          </li>
+        </ul>
+
+        <button type="reset">очистити форму</button>
+        <button type="button">очистити форму</button>
+        <button type="submit">очистити форму</button>
+      </section>
+    </main>
+    <footer>
+      <a href="#">WebStudio</a>
+      <address>
+        <p>м. Київ, пр-т Лесі Українки, 26</p>
+      </address>
+
+      <ul>
+        <li>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
+
+      <div class="parent">
+        <div class="red"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal-close">
+          <svg class="icon-close">
+            <use href="./symbol-defs.svg#icon-cross"></use>
+          </svg>
+        </button>
+        <form class="form">
+          <div class="input-container">
+            <label class="form-label">
+              <span class="label-text">Ім’я</span>
+              <input class="form-input" type="text" />
+            </label>
+            <label class="form-label">
+              <span class="label-text">Email</span>
+              <span class="input-wrap">
+                <input class="form-input" type="text" />
+                <svg class="envelop">
+                  <use href="./symbol-defs.svg#icon-envelop"></use>
+                </svg>
+              </span>
+            </label>
+          </div>
+          <button class="modal-button" type="submit">
+            <span class="button__text">Приєднатися до клану</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- <script type="module" src="./index.js"></script> -->
   </body>
 </html>
-

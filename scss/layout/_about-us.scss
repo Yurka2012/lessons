@@ -1,0 +1,181 @@
+/* about us */
+
+.about-us__heading {
+    /* width: 366px; */
+    height: 42px;
+  
+    margin-bottom: 50px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+  }
+  
+  .img-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .about-us__img:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  button[type='submit'] {
+    color: #000000;
+  }
+  
+  .navbar {
+    margin-left: 315px;
+    margin-right: 330px;
+    margin-top: 70px;
+    margin-bottom: 95px;
+  }
+  
+  .nav--list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .galery {
+    margin-left: 147px;
+    margin-right: 147px;
+  }
+  
+  .galery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .galery--item {
+  }
+  
+  .galery--container {
+    width: 420px;
+  }
+  
+  .galery-img {
+    margin-bottom: 62px;
+  }
+  
+  .underimg {
+    display: block;
+  
+    margin-bottom: 32px;
+  
+    width: 64px;
+    height: 16px;
+  
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+  
+    color: #b4ad9e;
+  }
+  
+  .heading {
+    margin-bottom: 40px;
+  
+    width: 408px;
+    height: 40px;
+  
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+  
+    color: #626262;
+  }
+  
+  .paragraph {
+    width: 420px;
+    height: 76px;
+  
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  
+    color: #626262;
+  }
+  
+  .galery--button {
+    display: block;
+  
+    margin: 0 auto;
+  
+    width: 165px;
+    height: 60px;
+  
+    border: 1px solid #626262;
+    text-align: center;
+  }
+  
+  .galery--button__text {
+    width: 68px;
+    height: 19px;
+  
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  
+    color: #626262;
+  }
+  
+  p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .parent {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 500px;
+    height: 500px;
+  
+    margin-top: 100px;
+    margin-bottom: 110px;
+  }
+  
+  .red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* border-radius: 50%; */
+    box-shadow: 57px -27px 0px -4px rgba(81, 94, 145, 0.79);
+    background: rgb(0, 212, 255);
+    background: radial-gradient(
+      circle,
+      rgba(0, 212, 255, 1) 23%,
+      rgba(2, 0, 36, 1) 37%,
+      rgba(226, 0, 245, 1) 37%,
+      rgba(0, 86, 255, 1) 76%
+    );
+  }
+  .blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
