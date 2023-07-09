@@ -1,6 +1,9 @@
 @import "./layout/header";
+@import './utils/_mixins.scss';
 @import "./utils/reset";
 @import './utils/root';
 @import './layout/base-styles';
 @import './layout/hero';
 @import './layout/about-us';
+@import './layout/what-did-we-do';
+@import './layout/our-team'

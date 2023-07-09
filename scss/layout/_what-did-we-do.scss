@@ -1,0 +1,10 @@
+.img-block {
+  @include flexible();
+  width: auto;
+  height: auto;
+}
+.about-us__img {
+  @include flexible();
+  width: 270px;
+  height: 194px;
+}
