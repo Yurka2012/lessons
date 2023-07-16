@@ -1,0 +1,7 @@
+.button {
+  @include buttonBorder(5px solid white, 25px);
+}
+
+.buttonB {
+  @include buttonBorder(none, none);
+}

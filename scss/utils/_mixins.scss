@@ -1,0 +1,18 @@
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin buttonBorder($border, $borderRadius) {
+  color: #fff;
+  background-color: #000;
+  border: $border;
+  border-radius: $borderRadius;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 30px;
+}
+
+// Артем Гладкий15:56
+// перемену

@@ -1,2 +1,59 @@
-@import './utils/root';
-@import './utils/mixins'
+// :root {
+//   --accent-color: green;
+// }
+
+// $accent-color: green;
+// $standart-color: brown;
+
+// // #A {
+// //   color: blue;
+// // }
+
+// // #A #B {
+// //   color: white;
+// // }
+
+// // #A #B #C span {
+// //   color: aqua;
+// // }
+
+// #A {
+//   color: red;
+//   #B {
+//     color: $accent-color;
+//     #C span {
+//       color: aqua;
+//     }
+//   }
+// }
+
+// .link {
+//   color: $accent-color;
+//   &:hover {
+//     color: $standart-color;
+//   }
+//   @media screen and (min-width: 768px) {
+//     color: white;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     color: black;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+// }
+
+// .asdasd {
+//   margin-top: 100px;
+//   margin-bottom: 100px;
+//   margin-right: 100px;
+//   margin-left: 100px;
+
+//   margin: 0 auto;
+// }
+
+@import "./reset.scss";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./layouts/header";
+@import "./components/buttons";

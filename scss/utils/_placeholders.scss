@@ -1,0 +1,15 @@
+%fonts {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+.list {
+  // було
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  // стало
+  @include flexible();
+
+  margin-bottom: 50px;
+  border: 5px solid red;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.text {
+  @extend %fonts;
+  color: red;
+  background-color: black;
+}
