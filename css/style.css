@@ -53,3 +53,13 @@ img {
   --black: #000000;
   --hero--background: #2f303a;
 }
+
+button {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid red;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 20px 30px;
+}
