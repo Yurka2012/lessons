@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    @media (min-device-pixel-retion:2) { 
+    @media (min-device-pixel-retion:2),(min-resolution: 192dpi), (min-resolution: 2dppx) { 
         // padding-top: 250px;
         // padding-bottom: 350px;
         padding-top: 175px;
