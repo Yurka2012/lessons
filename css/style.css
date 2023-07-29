@@ -1,5 +1,20 @@
 .alivio {
   color: #01996d;
+  width: 79.565px;
+  height: 23.04px;
+}
+
+li {
+  color: #292929;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.not-last {
+  margin-right: 10px;
 }
 
 header {
