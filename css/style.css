@@ -121,3 +121,11 @@ ol {
   display: flex;
   flex-direction: row;
 }
+
+.steps {
+  display: flex;
+}
+
+.step {
+  margin-right: 95px;
+}
