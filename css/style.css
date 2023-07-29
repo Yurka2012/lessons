@@ -37,6 +37,7 @@ header {
 header {
   align-items: center;
   text-align: center;
+  background: #FFF;
 }
 
 ul,
@@ -45,4 +46,48 @@ ol {
   padding: 10px;
   list-style: none;
   display: flex;
+}
+
+.hero-h1 {
+  color: #01996d;
+  font-family: Georgia;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-text {
+  color: #484848;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.4px; /* 31.4px */
+}
+
+.hero-button {
+  display: inline-flex;
+  padding: 20px 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 4px;
+  border: 1px solid #01996d;
+  background: #01996d;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+}
+
+.hero {
+  background: url(../../img/hero-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
 }
