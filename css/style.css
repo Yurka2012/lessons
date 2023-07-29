@@ -1,3 +1,16 @@
 .alivio {
-  color: #01996D;
+  color: #01996d;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  display: flex;
 }

@@ -1,4 +1,13 @@
-.alivio{
-    color: #01996D;
+.alivio {
+  color: #01996d;
 }
 
+// ul,
+// ol {
+//     // flex-direction: row;
+//     justify-content: space-between;
+// }
+header{
+    display: flex;
+    justify-content: space-between;
+}
