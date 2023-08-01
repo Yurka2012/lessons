@@ -5,7 +5,9 @@ body {
 .div {
   width: 300px;
   height: 300px;
+
   background-color: red;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,16 +15,15 @@ body {
 
 .div::after {
   content: "";
+
   display: block;
+
   margin-top: 300px;
+
   width: 300px;
   height: 10px;
-  background-color: black;
-}
 
-.text::-moz-selection {
-  color: yellow;
-  background-color: blue;
+  background-color: black;
 }
 
 .text::selection {
@@ -49,12 +50,26 @@ body {
 
 html {
   font-size: 30px;
+  //   display: $display;
 }
 
 .text {
+  //   font-size: 1.5em;
+  $display: none;
+
   font-size: -2rem;
-  display: none;
+
+  display: $display;
+
+  //   @include timeUP();
 }
+
+// %time {
+// }
+
+// @mixin timeUP(){
+//     kajf;ajdd;ds;
+// }
 
 .list {
   display: flex;
@@ -62,33 +77,23 @@ html {
 
 .list-item:not(:last-child) {
   width: 300px;
+
   padding: 20px;
+
+  // background-color: red;
+
   border: 5px dotted yellow;
   margin-top: 10px;
   margin-right: 20px;
   margin-bottom: 30px;
   margin-left: 40px;
+
   margin: 15px 20px 30px 40px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
+.input {
+  // display: inline-block;
 
-.hero {
-  padding-top: 175px;
-  padding-bottom: 300px;
-  background-image: url(../../img/hero.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background: url(../../img/hero.jpg) cover/center no-repeat;
-}
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../../img/hero-2x.jpg);
-  }
+  // width: 100px;
+  // height: 300px;
 }

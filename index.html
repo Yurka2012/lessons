@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hometask</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source
+          srcset="
+            ./img/our-team/mixa/First-desktop-1x.jpg 1x,
+            ./img/our-team/mixa/First-desktop-2x.jpg 2x
+          "
+          media="(min-width:1200px)"
+        />
+        <source
+          srcset="
+            ./img/our-team/mixa/First-tablet-1x.jpg 1x,
+            ./img/our-team/mixa/First-tablet-2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            ./img/our-team/mixa/First-phone-1x.jpg 1x,
+            ./img/our-team/mixa/First-phone-2x.jpg 2x
+          "
+          media="(min-width:0px)"
+        />
+        <img
+          src="./img/our-team/mixa/First-phone-1x.jpg"
+          alt="фото співробітника"
+        />
+      </picture>
+    </main>
+  </body>
 </html>
