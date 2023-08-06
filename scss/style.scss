@@ -1,5 +1,4 @@
-@import "./re/re";
-
-@import "./utils/reset";
-@import "./layouts/hero";
-@import './layouts/my-code';
+@import './utils/reset';
+@import './utils/mixins/mixins';
+@import './components/buttons';
+@import './layout/hero'

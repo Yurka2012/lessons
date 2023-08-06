@@ -1,0 +1,13 @@
+.flexibe-buttons{
+    display: flex;
+}
+button{
+    &:first-child{
+    @include buttons(orange);
+    }
+    &:last-child{
+        @include buttons(transparent);
+        border: 1px solid #fff;
+    }
+    color: #fff;
+}
