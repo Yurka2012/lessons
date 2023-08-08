@@ -1,0 +1,28 @@
+// $listItemCount: 9;
+// $itemsPerRow: 3;
+// $itemSpacing: 10px;
+// li {
+//   width: calc(
+//     (100% - #{$itemSpacing * (#{$itemsPerRow} - 1)}) / #{$itemsPerRow}
+//   );
+//   background-color: #f0f0f0;
+//   border: 1px solid #ccc;
+//   padding: 10px;
+//   margin: $itemSpacing;
+//   text-align: center;
+// }
+li {
+  width: 370px;
+  height: 404px;
+}
+ol,
+ul {
+    height: auto;
+}
+ol {
+    // @include flexible()
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    margin: 0;
+}
