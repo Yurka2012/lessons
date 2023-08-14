@@ -5,6 +5,33 @@
   box-sizing: border-box;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
+}
+
+.see_other_partners {
+  color: #ff4e50;
+  /* text-align: center; */
+  font-family: Montserrat;
+  /* font-size: 14px; */
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: normal; */
+  padding: 5px;
+}
+.button {
+  width: 195px;
+  align-items: center;
+  text-align: center;
+  height: 43px;
+  /* flex-shrink: 0; */
+  border-radius: 30px;
+  border: 5px solid #ff4e50;
+  background-color: white;
+}
+
+body{
+  align-items: center;
+  text-align: center;
 }
